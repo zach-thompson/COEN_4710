@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May  6 23:44:41 2021
+# Process ID: 15684
+# Current directory: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13200 C:\Users\zacht\Documents\- School\COEN 4710 - Computer Hardware\Projects\Project 2\project_2c\project_2c.xpr
+# Log file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/vivado.log
+# Journal file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sim_1/new/RISCV_tb.vhd}}
+update_compile_order -fileset sim_1

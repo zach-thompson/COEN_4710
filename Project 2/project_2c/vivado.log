@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May  6 23:44:41 2021
+# Process ID: 15684
+# Current directory: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13200 C:\Users\zacht\Documents\- School\COEN 4710 - Computer Hardware\Projects\Project 2\project_2c\project_2c.xpr
+# Log file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/vivado.log
+# Journal file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sim_1/new/RISCV_tb.vhd}}
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  7 00:01:25 2021...

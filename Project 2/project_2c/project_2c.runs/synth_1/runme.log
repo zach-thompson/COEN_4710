@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log RISCV_main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISCV_main.tcl
+

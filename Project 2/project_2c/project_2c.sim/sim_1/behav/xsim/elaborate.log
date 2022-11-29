@@ -1,0 +1,33 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 07e380d6dd0649ccbb9eabdbcc102dee --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RISCV_tb_behav xil_defaultlib.RISCV_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture my_functional_descr of entity xil_defaultlib.register32bit [register32bit_default]
+Compiling architecture my_dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture my_structure of entity xil_defaultlib.bit_32_adder [bit_32_adder_default]
+Compiling architecture behavioral_arch of entity xil_defaultlib.instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_mux [data_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.mainControl [maincontrol_default]
+Compiling architecture behavioral_arch of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.Imm_Gen [imm_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_Control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_mux [register_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_1bit [alu_1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_MSB [alu_msb_default]
+Compiling architecture alu_structure of entity xil_defaultlib.alu_main [alu_main_default]
+Compiling architecture behavioral_arch of entity xil_defaultlib.data_memory [data_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_mux [adder_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.RISCV_main [riscv_main_default]
+Compiling architecture behavioral of entity xil_defaultlib.riscv_tb
+Built simulation snapshot RISCV_tb_behav

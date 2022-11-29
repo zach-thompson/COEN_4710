@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../../../../Desktop/All_Components/ALU_Control.vhd" \
+"../../../../project_2c.srcs/sources_1/new/Imm_Gen.vhd" \
+"../../../../project_2c.srcs/sources_1/new/adder_mux.vhd" \
+"../../../../../../../../../../Desktop/All_Components/alu_1bit.vhd" \
+"../../../../../../../../../../Desktop/All_Components/alu_main.vhd" \
+"../../../../../../../../../../Desktop/All_Components/alu_msb.vhd" \
+"../../../../../../../../../../Desktop/All_Components/data_memory.vhd" \
+"../../../../project_2c.srcs/sources_1/new/data_mux.vhd" \
+"../../../../../../../../../../Desktop/All_Components/full_adder.vhd" \
+"../../../../../../../../../../Desktop/All_Components/instruction_memory.vhd" \
+"../../../../../../../../../../Desktop/All_Components/mainControl.vhd" \
+"../../../../../../../../../../Desktop/All_Components/register32bit.vhd" \
+"../../../../../../../../../../Desktop/All_Components/register_file.vhd" \
+"../../../../project_2c.srcs/sources_1/new/register_mux.vhd" \
+"../../../../../../../../../../Desktop/All_Components/thirty-two-bit-adder.vhd" \
+"../../../../project_2c.srcs/sources_1/new/RISCV_main.vhd" \
+
+# Do not sort compile order
+nosort

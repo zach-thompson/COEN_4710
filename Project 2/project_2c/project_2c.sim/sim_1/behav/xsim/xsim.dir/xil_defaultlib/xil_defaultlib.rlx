@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/zacht/Desktop/All_Components/ALU_Control.vhd,1620403413,vhdl,,,,alu_control,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/alu_1bit.vhd,1619750794,vhdl,,,,alu_1bit,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/alu_main.vhd,1620269675,vhdl,,,,alu_main,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/alu_msb.vhd,1619744068,vhdl,,,,alu_msb,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/data_memory.vhd,1620405455,vhdl,,,,data_memory,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/full_adder.vhd,1618803612,vhdl,,,,full_adder,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/instruction_memory.vhd,1620443277,vhdl,,,,instruction_memory,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/mainControl.vhd,1620184845,vhdl,,,,maincontrol,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/register32bit.vhd,1620185276,vhdl,,,,register32bit,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/register_file.vhd,1618778588,vhdl,,,,register_file,,,,,,,,
+C:/Users/zacht/Desktop/All_Components/thirty-two-bit-adder.vhd,1620323616,vhdl,,,,bit_32_adder,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sim_1/new/RISCV_tb.vhd,1620403785,vhdl,,,,riscv_tb,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sources_1/new/Imm_Gen.vhd,1620362609,vhdl,,,,imm_gen,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sources_1/new/RISCV_main.vhd,1620403480,vhdl,,,,riscv_main,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sources_1/new/adder_mux.vhd,1620312608,vhdl,,,,adder_mux,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sources_1/new/data_mux.vhd,1620312457,vhdl,,,,data_mux,,,,,,,,
+C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2c/project_2c.srcs/sources_1/new/register_mux.vhd,1620312181,vhdl,,,,register_mux,,,,,,,,

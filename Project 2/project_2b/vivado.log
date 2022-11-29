@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 29 21:53:50 2021
+# Process ID: 13152
+# Current directory: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4028 C:\Users\zacht\Documents\- School\COEN 4710 - Computer Hardware\Projects\Project 2\project_2b\project_2b.xpr
+# Log file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/vivado.log
+# Journal file: C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'alu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj alu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.srcs/sim_1/new/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.sim/sim_1/behav/xsim'
+"xelab -wto 2850c5e0e1ee4b49ac99f2fd8595944f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 2850c5e0e1ee4b49ac99f2fd8595944f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ALU_1bit [alu_1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_MSB [alu_msb_default]
+Compiling architecture alu_structure of entity xil_defaultlib.alu_main [alu_main_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_tb
+Built simulation snapshot alu_tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/zacht/Documents/- School/COEN 4710 - Computer Hardware/Projects/Project 2/project_2b/project_2b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "alu_tb_behav -key {Behavioral:sim_1:Functional:alu_tb} -tclbatch {alu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source alu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 80ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'alu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 80ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 29 22:45:08 2021...
